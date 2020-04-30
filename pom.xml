@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>com.xqsight</groupId>
-    <artifactId>xqsight-parent</artifactId>
+    <artifactId>xqsight-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>xqsight-parent</name>
+    <name>xqsight-project</name>
 
     <description>xqsight parent pom</description>
 
