@@ -1,4 +1,6 @@
-package com.xqsight.api.account.openfegin;
+package com.xqsight.account.entity.ext;
+
+import com.xqsight.account.entity.UserInfo;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -8,5 +10,5 @@ package com.xqsight.api.account.openfegin;
  * @see [相关类/方法]（可选）
  * @since 2020/4/30
  */
-public class UserFegin {
+public class UserInfoExt extends UserInfo {
 }
