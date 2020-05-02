@@ -2,7 +2,6 @@ package com.xqsight.account;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -13,7 +12,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @since 2020/4/30
  */
 @SpringBootApplication
-@EnableDiscoveryClient
 public class AccountApplication {
 
     public static void main(String[] args) {

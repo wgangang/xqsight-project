@@ -1,7 +1,9 @@
 package com.xqsight.api.account.openfeign;
 
+import com.xqsight.common.response.ResponseData;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -11,7 +13,11 @@ import org.springframework.stereotype.Component;
  * @see [相关类/方法]（可选）
  * @since 2020/4/30
  */
-@FeignClient
-public class UserFeign {
+@FeignClient(name = "xqsight-account")
+@RequestMapping("/user")
+public interface UserFeign {
+
+    @GetMapping("/test")
+    ResponseData test();
 
 }

@@ -12,6 +12,7 @@
         <module>xqsight-common-redis</module>
         <module>xqsight-common-utils</module>
         <module>xqsight-common-zookeeper</module>
+        <module>xqsight-common-base</module>
     </modules>
     <artifactId>xqsight-parent-common</artifactId>
 

@@ -9,4 +9,6 @@ package com.xqsight.api.account.client;
  * @since 2020/4/30
  */
 public interface UserInfoClient {
+
+    String test();
 }

@@ -1,4 +1,4 @@
-package com.xqsight.account.controller;
+package com.xqsight.common.exception;
 
 /**
  * 〈一句话功能简述〉<br>
@@ -6,7 +6,8 @@ package com.xqsight.account.controller;
  *
  * @author ganggang.wang
  * @see [相关类/方法]（可选）
- * @since 2020/4/30
+ * @since 2020/5/2
  */
-public class UserControlle {
+public class XqException extends Exception {
+
 }
