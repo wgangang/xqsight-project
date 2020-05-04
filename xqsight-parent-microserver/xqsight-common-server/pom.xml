@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>xqsight-account-server</artifactId>
+    <artifactId>xqsight-common-server</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.xqsight</groupId>

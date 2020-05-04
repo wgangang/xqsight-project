@@ -11,11 +11,11 @@
 
     <artifactId>xqsight-gateway</artifactId>
 
-        <dependencies>
-            <dependency>
-                <groupId>com.xqsight</groupId>
-                <artifactId>xqsight-account-api</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-        </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>com.xqsight</groupId>
+            <artifactId>xqsight-account-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>

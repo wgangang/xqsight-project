@@ -12,9 +12,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since 2020/4/30
  */
 @SpringBootApplication
-public class AccountApplication {
+public class CommonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountApplication.class, args);
+        SpringApplication.run(CommonApplication.class, args);
     }
 }

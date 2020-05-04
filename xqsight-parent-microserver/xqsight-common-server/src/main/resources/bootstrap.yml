@@ -1,6 +1,6 @@
 spring:
   application:
-    name: xqsight-account
+    name: common-service
   cloud:
     nacos:
       config:

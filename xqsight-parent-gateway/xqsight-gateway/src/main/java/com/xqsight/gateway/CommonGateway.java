@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @since 2020/5/2
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.xqsight.**.service", "com.xqsight.**.client"})
+@ComponentScan(basePackages = {"com.xqsight.**.service", "com.xqsight.**.client","com.xqsight.**.config"})
 @EnableFeignClients(basePackages = {"com.xqsight.**.openfeign"})
 public class CommonGateway {
 
