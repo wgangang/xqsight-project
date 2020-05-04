@@ -11,8 +11,11 @@ spring:
       discovery:
         locator:
           lower-case-service-id: true
+          enabled: true
       routes:
-        - id: common-server
-          uri: lb://common-server
+        - id: common-service
+          uri: lb://common-service/
           predicates:
             - Path=/sys/common/**
+          filters:
+            - StripPrefix=2
