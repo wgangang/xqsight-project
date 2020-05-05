@@ -9,8 +9,8 @@ spring:
         fileExtension: yaml
         extension-configs:
           - dataId: data-source-config.yaml
-            refresh: true
+            refresh: false
           - dataId: feign-config.yaml
-            refresh: true
+            refresh: false
       discovery:
         server-addr: ${xqsight.nacos.config.server-addr:127.0.0.1:8848}
