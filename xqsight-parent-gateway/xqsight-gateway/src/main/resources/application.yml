@@ -4,18 +4,3 @@ server:
   tomcat:
     uri-encoding: UTF-8
     max-threads: 1000
-
-spring:
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          lower-case-service-id: true
-          enabled: true
-      routes:
-        - id: common-service
-          uri: lb://common-service/
-          predicates:
-            - Path=/sys/common/**
-          filters:
-            - StripPrefix=2

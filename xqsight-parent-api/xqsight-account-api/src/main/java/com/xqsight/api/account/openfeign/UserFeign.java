@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @see [相关类/方法]（可选）
  * @since 2020/4/30
  */
-@FeignClient(name = "common-service")
+@FeignClient(name = "${xqsight.feign.common-service.name:common-service}")
 @RequestMapping("/user")
 public interface UserFeign {
 

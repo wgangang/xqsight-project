@@ -39,7 +39,7 @@
 
     <logger name="com.xqsight" level="debug"></logger>
 
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="console"/>
         <appender-ref ref="ASYNC"/>
     </root>
