@@ -13,6 +13,7 @@
         <module>xqsight-common-utils</module>
         <module>xqsight-common-zookeeper</module>
         <module>xqsight-common-base</module>
+        <module>xqsight-common-mybatis</module>
     </modules>
     <artifactId>xqsight-parent-common</artifactId>
 
