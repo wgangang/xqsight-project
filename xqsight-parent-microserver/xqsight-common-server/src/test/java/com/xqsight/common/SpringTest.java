@@ -2,6 +2,7 @@ package com.xqsight.common;
 
 import com.xqsight.account.service.UserService;
 import com.xqsight.common.config.MyConfig;
+import com.xqsight.common.service.ConfigurationService;
 import com.xqsight.common.service.FactoryBeanService;
 import com.xqsight.common.service.OrderServiceTest;
 import org.springframework.context.ApplicationContext;
@@ -24,7 +25,8 @@ public class SpringTest {
     public static void main(String[] args) {
         //ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("test.xml");
         annotationConfigApplicationContext = new AnnotationConfigApplicationContext(MyConfig.class);
-        new AnnotationConfigApplicationContext("");
+        //new AnnotationConfigApplicationContext("");
+        System.out.println("=======================");
         UserService userService = annotationConfigApplicationContext.getBean("userService", UserService.class);
         System.out.println(userService);
 
@@ -48,9 +50,10 @@ public class SpringTest {
          */
 
         OrderServiceTest orderService = annotationConfigApplicationContext.getBean("orderServiceTest", OrderServiceTest.class);
-
         orderService.showName();
-
+        ConfigurationService configurationService1 = annotationConfigApplicationContext.getBean("configurationService", ConfigurationService.class);
+        ConfigurationService configurationService12 = annotationConfigApplicationContext.getBean("configurationService", ConfigurationService.class);
+        System.out.println(configurationService1 == configurationService12);
         /**
          * BeanFactory and ApplicationContext Spring生命周期最核心的类
          * ApplicationContext 是对BeanFactory 的扩展
